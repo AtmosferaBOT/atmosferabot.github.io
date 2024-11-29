@@ -1,0 +1,148 @@
+/* styles.css */
+
+/* General Body Style */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #6584b3;
+    background-color: #f9f9f9;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #6584b3;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Search Input Field */
+header input {
+    width: 80%;
+    max-width: 500px;
+    padding: 0.5rem;
+    margin: 1rem auto;
+    border: 2px solid #6584b3;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: block;
+}
+
+/* Main Container */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Sections and Commands */
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #6584b3;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #6584b3;
+    padding-bottom: 0.5rem;
+}
+
+.command {
+    margin-bottom: 1rem;
+}
+
+.command-name {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.command-desc {
+    margin: 0.3rem 0 0.8rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* No Results Message */
+#noResults {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #999;
+    margin-top: 2rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* emote do 7tv */
+.emote {
+    width: 32px;  /* Tamanho fixo de 32px para a largura */
+    height: 32px; /* Tamanho fixo de 32px para a altura */
+    vertical-align: middle; /* Alinha a imagem com o texto */
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+} /* Fim do comentário emote */
+
+/* Blue Section - Bottom part */
+.blue-section {
+    background-color: #6584b3; /* Blue background color */
+    color: #FFFFFF; /* White text */
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px; /* Adds spacing from the content above */
+}
+
+.blue-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.blue-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.blue-section .action-button {
+    background-color: #FF5733; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.blue-section .action-button:hover {
+    background-color: #e74c3c; /* Button hover color */
+}
+
+/* Responsiveness for Small Screens */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+}
